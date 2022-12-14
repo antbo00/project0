@@ -1,0 +1,148 @@
+.menu_sear{
+
+ text-align: right;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: small;
+
+
+}
+
+
+.search_form{
+
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+border: 5px solid white;
+padding: 10px;
+text-align: center;
+}
+
+
+.input_group{
+
+    position: relative;
+}
+
+
+#t_sear{
+
+    border-radius: 24px;
+    height: 40px;
+    width: 500px;
+    text-align: left;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    transition-duration: 0.1s;
+    border: 1px solid #dfe1e5;
+    text-indent: 40px;    
+
+}
+
+
+#div_searb{
+
+    padding-top: 40px ;
+
+
+}
+
+
+#b_r{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa ;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    
+
+}
+
+
+#b_f{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa ;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+
+}
+
+#b_r:hover{
+   box-shadow:   1.5px  1.5px 2px #dedede,
+                -1.5px -1.5px 2px #dedede,
+                 1.5px -1.5px 2px #dedede,
+                -1.5px  1.5px 2px #dedede;
+    
+
+}
+
+#b_r:focus{
+        border-color: rgb(77, 127, 221);
+
+}
+
+
+#b_f:hover{
+    box-shadow:  1.5px  1.5px 2px #dedede,
+                -1.5px -1.5px 2px #dedede,
+                1.5px -1.5px 2px #dedede,
+                -1.5px  1.5px 2px #dedede;
+    
+
+}
+
+#b_f:focus{
+
+    border-color: rgb(77, 127, 221);
+
+}
+
+
+#t_sear:hover{
+
+   box-shadow:   1.5px  1.5px 2px #dedede,
+                -1.5px -1.5px 2px #dedede,
+                 1.5px -1.5px 2px #dedede,
+                -1.5px  1.5px 2px #dedede;
+   
+
+}
+
+
+#t_sear:focus{
+
+
+    
+    outline: none;
+}
+
+a{
+text-decoration: none;
+color:black ;
+padding-right: 20px;
+
+}
+
+a:hover{
+
+    text-decoration: underline;
+}
